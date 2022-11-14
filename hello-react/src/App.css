@@ -1,11 +1,80 @@
 .App {
-  text-align: center;
+  
+  background-color: rgb(14, 14, 44);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.Nav-bar {
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  padding: 30px;
+  text-align: left;
+  background-image: url(../public/logo192.png);
+background-repeat: no-repeat;
+background-position: 80%;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+  width: 50vw;
+  line-height: 65px;
+}
+
+header p {
+  color: white;
+  width: 50vw;
+  font-size: 25px;
+}
+
+button {
+  color: rgb(14, 14, 44);
+  padding: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 28px;
+  border-radius: 5%;
+}
+
+.Main {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  color:rgb(14, 14, 44);
+  padding: 80px 50px 80px 50px;
+  font-family: ‘Roboto-Condensed’, sans-serif;;
+}
+
+.Main article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+}
+
+.Main h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Main p {
+  margin: 0px;
+  padding: 0px;
+  color: grey;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
